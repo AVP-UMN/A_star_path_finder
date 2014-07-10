@@ -87,7 +87,7 @@ int main (int argc, const char *argv[]) {
 		//	for (std::list<Info>::iterator it=closedset.begin(); it != closedset.end(); ++it)
 		//		print_Info(*it);
 			reconstruct_path(data, come_from, data[goal_raw_index]);
-			print_data_picked(data);
+			//print_data_picked(data);
 			return 0;
 		}
 		openset.remove(current_info);

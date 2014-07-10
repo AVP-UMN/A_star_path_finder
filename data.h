@@ -21,7 +21,7 @@
 #define START_X 0
 #define START_Y 0
 #define GOAL_X 60
-#define GOAL_Y 400
+#define GOAL_Y 60
 #include <unordered_map>
 
 using namespace std;

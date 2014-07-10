@@ -18,9 +18,8 @@ void print_data_picked(unordered_map<int, Info> data) {
 		for(j=0; j<70; j++) {
 			raw_index = coor_to_int(j,i);
 			if(data[raw_index].picked){ 
-//				out << data[raw_index].x.tostring() << " ," + data[raw_index].y<< ")" << "\n";
-				out << "(" + to_string(data[raw_index].x) + " ,";
-				out << to_string(data[raw_index].y) + ")\n";
+				out << to_string(data[raw_index].x) + "\t";
+				out << to_string(data[raw_index].y) + "\n";
 				cout << "1 ";
 			}
 			else
